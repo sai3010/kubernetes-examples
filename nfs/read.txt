@@ -1,0 +1,8 @@
+Step 1:
+Create Persistent Disk in Google Compute Engine
+	gcloud compute disks create --size=10GB --zone=us-east1-b gce-nfs-disk
+
+
+
+
+Reference link :: https://medium.com/platformer-blog/nfs-persistent-volumes-with-kubernetes-a-case-study-ce1ed6e2c266
